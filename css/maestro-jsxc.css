@@ -1,0 +1,15 @@
+html, body {
+	min-height: 100%;
+    height: 100%;
+}
+
+.container-fluid {
+	background-image: url("https://source.unsplash.com/random");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: contain;
+	padding-top: fill;
+	box-sizing: border-box;
+	min-height: 100%;
+    height: 100%;
+}
