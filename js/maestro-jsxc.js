@@ -1,8 +1,8 @@
 $(function() {
    var settings = {
       xmpp: {
-         url: 'https://xmpp.arnaudbouts.fr/http-bind/',
-         domain: 'arnaudbouts.fr',
+         url: 'https://{{HOST}}/http-bind/',
+         domain: '{{DOMAIN}}',
          resource: 'example',
          overwrite: true
       }
