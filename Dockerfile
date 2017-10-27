@@ -8,7 +8,7 @@ RUN apt-get update \
 
 COPY ./ /usr/share/nginx/html
 
-RUN cd /usr/share/nginx/html && curl -L -o jsxc.zip https://github.com/jsxc/jsxc/releases/download/v3.3.0/jsxc-3.3.0.zip
+RUN cd /usr/share/nginx/html && curl -L -o jsxc.zip https://github.com/jsxc/jsxc/releases/download/v3.3.1/jsxc-3.3.1.zip
 
 RUN cd /usr/share/nginx/html && unzip jsxc.zip
 
